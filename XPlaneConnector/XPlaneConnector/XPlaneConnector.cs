@@ -292,8 +292,8 @@ namespace XPlaneConnector
             {
                 var dg = new XPDatagram();
                 dg.Add("RREF");
-                dg.Add(dr.Id);
                 dg.Add(0);
+                dg.Add(dr.Id);
                 dg.Add(dataref);
                 dg.FillTo(413);
 
@@ -401,3 +401,4 @@ namespace XPlaneConnector
         }
     }
 }
+
